@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #EDE8E3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.heading {
+  display: flex;
+  justify-content: space-around;
+}
+.heading div{
+  background-color: white;
+  color: blue;
+
+}
+.progress{
+  display: flex;
+  margin-top: 30px;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+progress{
+  width: 100%;
+  height: 30px;
+  
+}.question-section{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+}
+.answers{
+  width: 100%;
+  background-color: rgb(237, 212, 212);
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center   ;
+  
+  
+}
+.question{
+  font-size: 25px;
+}
+.answers-section{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.circle{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  width: 100%;
+  background-color: green;
+  font-size: 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 25px;
+}
+.selected{
+  background-color: green;
+}
+button.disabled {
+  background-color: #ccc; 
+  
+}
+.result{
+  padding-left: 50px;
+  margin-top: 100px;
+}
+.result p{
+  margin-top: 30px;
+  font-size: 20px;
+}
+.quiz-container{
+  max-width: 500px;
+}
